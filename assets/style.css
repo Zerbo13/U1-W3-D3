@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #273c75;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Form */
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #273c75;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+/* Per contenere le task */
+#save-task {
+  width: 300px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+/*Mostra le task sotto in un riquadro blu*/
+.task-list {
+  background-color: #273c75;
+  color: white;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.task-list p {
+  display: inline-block;
+  margin: 0;
+  width: 200px;
+}
+
+.task-list button {
+  background-color: #c0392b;
+  /*Per centrare il tasto cancella*/
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.task-list button:hover {
+  background-color: #e74c3c;
+}
+
+.cancel {
+  text-decoration: line-through;
+}
