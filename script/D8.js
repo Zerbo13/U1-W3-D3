@@ -8,7 +8,7 @@ const deleteTask = function(e){
 
 const handleForm = function(e){
     e.preventDefault()
-    console.log('Recuperiamo i dati')
+    console.log('Recupero i dati')
 
     //1) recuperiamo i riferimenti a tutti gli input
     const taskInput = document.getElementById('task')
